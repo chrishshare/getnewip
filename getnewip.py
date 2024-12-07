@@ -10,7 +10,7 @@ import MySQLdb.cursors
 HOST = '127.0.0.1'
 PORT = 3306
 USER = 'root'
-PASSWORD = '@Zhsy08241128*'
+PASSWORD = '@*'
 DB = 'chkip'
 QUERY_SQL = 'SELECT ip, address, operator FROM chkip.iphistory order by createtime desc limit 1'
 
